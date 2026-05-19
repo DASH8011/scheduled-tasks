@@ -7,7 +7,7 @@ proxy_client = TwilioHttpClient(proxy={'http': os.environ['http_proxy'], 'https'
 
 account_sid = os.environ.get("SID_KEY")
 auth_token = os.environ.get("AUTH_TOKEN")
-api_key = os.environ.get("OWM_API_KEY")
+api_key = os.environ.get("API_KEY")
 
 my_lat = 35.467560
 my_long = -97.516426
